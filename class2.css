@@ -1,0 +1,25 @@
+#header{
+  color: rgb(75, 8, 146); 
+  background-color:rgb(249, 147, 79);
+  padding: 10px;
+  
+}
+.body{
+  background-color: rgb(238, 143, 151); 
+  color:rgb(37, 1, 71)
+}
+.pic{
+  margin-top: 1%;
+}
+.pic img{
+  padding-left: 350px;
+}
+#btn{
+  border: 1px solid grey;
+  background-color: rgb(202, 202, 202);
+}
+#btn:hover{
+  color: whitesmoke;
+  background-color: rgb(88, 88, 88);
+  border: none;
+}

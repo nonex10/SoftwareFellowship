@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  #name{
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 186, 208);
+    padding: 5%;
+    margin: 0 10 0 10;
+
+  }
+  /*#button1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 141, 141);
+    border: dotted;
+    border-radius: 10px;
+  }
+  #button1:hover{
+    background-color: brown;
+  }*/
+</style>
+<body>
+  <p id="name">I am xenon saud from pkmc.</p> <br>
+  <button id="button1" onclick="updateText('hello from button 1')">Change Name1</button>
+  <button class="button2" onclick="updateText('hello from button 2')">Change Name2</button>
+  
+</body>
+<script>
+  function updateText(){
+    var pTag = document.getElementById("name");
+    pTag.innerText = message; 
+
+  }
+</script> 
+</html>
